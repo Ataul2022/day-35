@@ -1,0 +1,113 @@
+.pricing-items{
+    
+}
+.pricing-items h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6688f0;
+}
+.pricing-items h1{
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+    
+
+}
+.pricing-items h5{}
+.pricing-items p{
+    font-size: 15px;
+color: #a09cad;
+
+}
+.top-text p::before{
+    content: "";
+position: absolute;
+left: 0;
+bottom: -10px;
+right: 0;
+margin: auto;
+background: #ddd;
+width: 100px;
+height: 2px;
+border-radius: 50%;
+
+
+}
+body{
+    background:0#f6f9fc;
+}
+
+
+/* doler-item. */
+
+.doler-items{
+
+display: inline-block;
+background:white;
+padding: 20px;
+text-align: center;
+line-height: 40px;
+box-shadow: 10px 5px #dddd;
+
+
+}
+.down-text{}
+.down-text ul{
+    list-style: none;
+    font-size: 15px;
+    font-weight: lighter;
+    padding-left: 0;
+    
+}
+.down-text ul li{}
+.top-text{}
+.top-text h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+.top-text h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.top-text p{
+    font: 15px;
+    font-weight: 200;
+}
+.btn-primary{
+    border-radius: 25px 25px 25px 25px;
+    background: #3763eb;
+}
+/* purcess section. */
+.lfwf{
+    background-image: url(./img/free-bg.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 220px;
+    position: relative;
+    z-index: 1;
+
+}
+.lfwf::before{
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    background:rgba(0, 0,255, .5);
+    position: absolute;
+    z-index: -1;
+}
+.button-3{
+    border-radius: 25px 25px 25px 25px;
+    font-size: 20px;
+    padding: 10px 30px;
+    color: #315bd5;
+}
+.container{
+    position: relative;
+}
+.top-text p{
+    position: relative;
+}.
